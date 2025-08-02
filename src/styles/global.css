@@ -108,3 +108,7 @@ h2{
     color: var(--color-primary);
     /* font-weight: var(); */
 }
+
+ul {
+    list-style: none;
+}

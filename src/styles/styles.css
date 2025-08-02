@@ -396,39 +396,129 @@ main {
     align-self: center;
     gap: 8px;
     text-decoration: none;
+    color: var(--color-netral-white);
 
 }
 
 /*-- ----------- FIM PELLENTESQUE ---------- --*/
 
-/*-- ----------- PELLENTESQUE ---------- --*/
+/*-- ----------- RODAPÉ ---------- --*/
 
-.rodape-global {
+footer {
     display: flex;
     justify-content: center;
-    padding: 64px;
+    gap: 269px;
+    padding: 64px 0px;
     background-color: var(--color-netral-black);
 }
 
-.rodape-nexcent-marketing {
-    width: 400px;
+.copyright-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.copyright-reserved p   {
     color: var(--color-netral-silver);
-    font-family: var(--font-body3-size);
 }
 
-.rodape-nexcent-marketing-content {
-    margin: 40px 0px 40px 0px;
-    
+.copyright-reserved p:nth-of-type(1)   {
+    margin-bottom: 8px;
 }
 
-.rodape-nexcent-marketing-content p{
-    margin-top: 8px;
-    
-}
-
-.rodape-nexcent-marketing-social {
+.footer-socials {
     display: flex;
     gap: 16px;
 }
 
-/*-- ----------- FIM PELLENTESQUE ---------- --*/
+.social-icon {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 7.47px;
+    border-radius: 100%;
+    transition: 0.3s;
+}
+.social-icon a {
+    display: flex;
+}
+
+.social-icon:hover {
+    background-color: var(--color-primary);
+    transform: translateY(-5px);
+}
+
+.footer-navigation {
+    display: flex;
+    gap: 97px;
+}
+
+.foot-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.foot-container h2 {
+    color: var(--color-netral-white);
+    font-size: var(--font-headline-4-size);
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: var(--font-body3-size);
+}
+
+.footer-item {
+    text-decoration: none;
+    color: var(--color-netral-silver);
+    transition: 0.3s;
+}
+
+.footer-links li{
+    transition: 0.3s;
+}
+
+.footer-links li:hover{
+    transform: translateX(10px);
+}
+
+.footer-item:hover {
+    color: var(--color-primary);
+    transform: translateX(10px);
+}
+.foot-container form {
+    display: flex;
+    align-items: center;
+}
+
+.foot-container form input {
+    padding: 10px 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #D9DBE1;
+    border-radius: 8px 0px 0px 8px;
+    outline: none;
+}
+
+.foot-container form input::placeholder {
+    color: #D9DBE1;
+}
+
+.foot-container form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8.9px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.foot-container form button:hover {
+    background-color: var(--color-primary);
+}
+/*-- ----------- FIM RODAPÉ ---------- --*/
