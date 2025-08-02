@@ -105,11 +105,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <!-- MODELO DE AUTOR-->
 ## 🦸 Autor
 
-<a href="https://br.linkedin.com/in/matheus-maia-alvarez-">
-Matheus Maia Alvarez</a>
+<a href="https://github.com/edufalabella">
+Eduardo Falabella</a>
  <br />
  
-[![Gmail Badge](https://img.shields.io/badge/-mthalvarez2005@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mthalvarez2005@gmail.com)](mailto:mthalvarez2005@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-falabella.eduardo@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:falabella.eduardo@gmail.com)](mailto:falabella.eduardo@gmail.com)
 
 ---
 
