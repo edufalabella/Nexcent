@@ -120,4 +120,4 @@ Eduardo Falabella</a>
 
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
-Feito por Eduardo Falabella👋🏽 [Entre em contato!](https://www.linkedcom/in/falabellaeduardo/)
+Feito por Eduardo Falabella👋🏽 [Entre em contato!](https://www.linkedin/in/falabellaeduardo/)
